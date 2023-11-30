@@ -4,7 +4,15 @@
             "runtime": "vercel-php@0.4.0"
         }
     }, 
-    "routes": ["index.php"]
+    "routes": [
+        {
+            "src":"/ProcessandoPHP/*",
+            "dest":"/api/index.php"
+
+        }
+    ]
+
+   
         
       
 }
